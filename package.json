@@ -1,0 +1,24 @@
+{
+  "name": "mochachaiexamples",
+  "version": "0.1.0",
+  "description": "Proyecto para manejar ejemplos de pruebas unitarias sobre métodos JS utilizando mocha y chai",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d dist/src",
+    "test": "mocha"
+  },
+  "keywords": [
+    "mocha",
+    "chai",
+    "unit",
+    "testing"
+  ],
+  "author": "Carlos Gonzalez <carlosj.gonzalez28@gmail.com> (http://www.sancrisoft.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "6.26.0",
+    "babel-preset-env": "1.6.1",
+    "chai": "4.1.2",
+    "mocha": "5.0.0"
+  }
+}
