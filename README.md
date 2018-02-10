@@ -11,7 +11,7 @@ npm install
 ```
 
 ## Créditos
-- [Carlos González](mailto:carlos@sancrisoft.com)
+- [Carlos González - carlos@sancrisoft.com](mailto:carlos@sancrisoft.com)
 
 ## Licencia
 [MIT](https://opensource.org/licenses/MIT)
