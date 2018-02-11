@@ -8,30 +8,30 @@ const operacionesMath = (num1, num2, operator) => {
       return  { 
                 status: 'ok',
                 result: numInt1 + numInt2 
-              };
-      break;
+              }
+      break
     case 'RESTA':
       return  { 
                 status: 'ok',
                 result: numInt1 - numInt2 
-              };
-      break;
+              }
+      break
     case 'MULTIPLICACION':
       return  { 
                 status: 'ok',
                 result: numInt1 * numInt2 
-              };
-      break;
+              }
+      break
     case 'DIVISION':
       return  { 
                 status: 'ok',
                 result: numInt1 / numInt2 
-              };
+              }
       break;
     default: return {
                       status: 'operator not found'
                     }
-      break;
+      break
   }
 }
 
